@@ -1,0 +1,53 @@
+[
+  {
+    "data": "2025-09-19T00:00:00-03:00",
+    "turno": "integral",
+    "refeicao": {
+      "titulo": "almoço",
+      "horario": "11:20 - 12:30",
+      "itens": ["Arroz", "Feijoada", "Couve", "Abacaxi"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/almoço1.png", "./img/sucodelaranja.png"]
+    },
+    "lanche": {
+      "titulo": "lanche",
+      "horario": "14:50 - 15:15",
+      "itens": ["rocambole", "musse de maracujá com morango"],
+      "img": ["./img/rocambole.png", "./img/musse1.png"],
+      "bebida": ""
+    }
+  },
+  {
+    "data": "2025-09-19T00:00:00-03:00",
+    "turno": "manhã",
+    "refeicao": {
+      "titulo": "almoço",
+      "horario": "9:30 - 9:45",
+      "itens": ["Arroz", "Feijoada", "Couve", "Abacaxi"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/almoço1.png", "./img/sucodelaranja.png"]
+    }
+  },
+  {
+    "data": "2025-09-19T00:00:00-03:00",
+    "turno": "tarde",
+    "refeicao": {
+      "titulo": "Merenda",
+      "horario": "15:00 - 15:15",
+      "itens": ["Arroz", "Feijoada", "Couve", "Abacaxi"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/almoço1.png", "./img/sucodelaranja.png"]
+    }
+  },
+  {
+    "data": "2025-09-19T00:00:00-03:00",
+    "turno": "noturno",
+    "refeicao": {
+      "titulo": "Jantar",
+      "horario": "20:30 - 20:45",
+      "itens": ["Arroz", "Feijoada", "Couve", "Abacaxi"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/almoço1.png", "./img/sucodelaranja.png"]
+    }
+  }
+]

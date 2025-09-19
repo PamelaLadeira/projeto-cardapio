@@ -28,6 +28,9 @@ footer {
     height: 200px;
     justify-content: space-evenly;
 }
+section{
+
+}
 
 section figure img {
     width: 200px;
@@ -57,4 +60,88 @@ form div{
     display: flex;
     justify-content: space-around;
 
+}
+/* ======== FORMULÁRIO ======== */
+form {
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #a41034;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 1px solid #a41034;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f3f3f3;
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #a41034;
+  padding: 0 10px;
+}
+
+/* Labels e inputs */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: border 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #a41034;
+  outline: none;
+}
+
+/* Estilo especial para campos desabilitados */
+textarea:disabled {
+  background-color: #eee;
+  color: #888;
+}
+
+/* Radio e checkbox alinhados */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+/* Botão */
+button {
+  padding: 12px 24px;
+  background-color: #a41034;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #86102c;
 }
